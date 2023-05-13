@@ -1,0 +1,71 @@
+
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+	background: #fbf5ff ;
+	
+}
+
+canvas {
+	display: block;
+	border: 1px solid #000;
+	background-color: #FFB6C1 ;
+	margin: auto;
+  
+	
+}
+
+.game {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.scoreboard {
+	position: relative;
+	top: 0;
+	left: 50%;
+	display: flex;
+	justify-content: space-between;
+	
+}
+
+.score,.divider {
+	font-size: 10rem;
+	padding: 10px;
+	display: inline-block;
+}
+
+
+
+
+
+.container {
+	display: flex;
+	flex-direction: row;
+	height: 100px;
+  }
+  
+  .box1, .box2 {
+	height: 50%;
+	flex-grow: 1;
+	margin-right: 10px;
+	margin: auto;
+  }
+
+  .box3 {
+	height: 50%;
+	flex-grow: 1;
+	margin-right: 10px;
+	margin: auto;
+  }
+  
+  .box:last-child {
+	margin-right: 0;
+  }
